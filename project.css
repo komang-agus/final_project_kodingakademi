@@ -1,0 +1,79 @@
+.header{
+    height: 100px;
+}
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .button {
+    width: 100px;
+    height: 200px;
+    
+  }
+  #google{
+    margin-top: 150px;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: px;
+    height: 100px;
+    background-image: url(./googlelogo_color_272x92dp-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .white{
+    margin-top: 130px;
+    border-radius: 60px;
+    color: white;
+    background-color: black;
+    width: 60px;
+    height: 60px;
+  }
+  .white:hover,.dark:hover{
+    cursor: pointer;
+  }
+  .dark{
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    background-color: #FEFBF6;
+    margin-left: 50px;
+  }
+  .se{
+    margin-top: px;
+    width: 200px;
+    height: 32px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: none;
+  }
+  #barsearch{
+    border: 1px solid black;
+    width:fit-content;
+    padding:5px 10px;
+    border-radius:99px;
+    background:white
+  }
+  .usi{
+    width: 200px;
+    height: 32px;
+    border-radius: 20px;
+    display: block;
+    margin-left: 700px;
+    margin-right: auto;
+    width: 50%;
+    border: none;
+  }

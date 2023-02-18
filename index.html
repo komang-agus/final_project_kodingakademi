@@ -1,0 +1,51 @@
+<style>
+.search{
+border: none;
+width: 600px;
+font-size: large;
+}
+.search:focus{
+    border: none;
+    outline: none;
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkMode Google</title>
+    <link rel="stylesheet" href="project.css">
+    <script src="https://kit.fontawesome.com/a1efe7080c.js" crossorigin="anonymous"></script>
+</head>
+<body id="tubuh">
+
+    <div id="google"></div>
+    
+    <div class="se" id="barsearch">
+        <span><i><i class="fa-solid fa-magnifying-glass"></i></i></span>
+        <input type="text" placeholder="Search Google or type a URL"; class="search" id="search;">
+        <span><i><i class="fa-solid fa-microphone"></i></i></span>
+    </div>
+    <div class="usi">
+        <button onclick="DarkMode()"; class="dark"><i class="fa-solid fa-moon"></i></button>
+        <button onclick="WhiteMode()"; class="white"><i class="fa-solid fa-sun"></i></button>
+    </div>
+</body>
+</html>
+<script>
+    function DarkMode()
+    {
+        document.getElementById("tubuh").style.backgroundColor = "#202125";
+        document.getElementById("google").style.backgroundImage ="url(whitelogo-removebg-preview.png)"
+        document.getElementById("barsearch").style.borderColor = "white"
+    }
+    function WhiteMode()
+    {
+        document.getElementById("tubuh").style.backgroundColor = "white";
+        document.getElementById("google").style.backgroundImage ="url(googlelogo_color_272x92dp-removebg-preview.png)"
+        document.getElementById("barsearch").style.borderColor = "black"
+    }
+</script>
